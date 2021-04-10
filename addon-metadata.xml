@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+    <meta>
+        <file-type type="string">FlightGear add-on metadata</file-type>
+        <format-version type="int">1</format-version>
+    </meta>
+
+    <addon>
+        <identifier type="string">a.fguk.MachLoop</identifier>
+        <name type="string">MachLoop</name>
+        <version type="string">2.1.0</version>
+
+        <authors>
+            <author>
+                <name type="string">Tomaskom, Algy, Neilson</name>
+                <email type="string"></email>
+                <url type="string"></url>
+            </author>
+        </authors>
+
+        <maintainers>
+            <maintainer>
+                <name type="string">Brendan Black</name>
+                <email type="string"></email>
+                <url type="string"></url>
+            </maintainer>
+        </maintainers>
+
+        <short-description type="string">The Mach Loop is a timed circuit In Wales LFA-7</short-description>
+        <long-description type="string">Mach Loop is an addon for FlightGear that adds timed circuits in Wales LFA-7</long-description>
+
+        <license>
+            <designation type="string">GNU GPL version 2 or later</designation>
+	    <file type="string">Docs/COPYING</file>
+            <url type="string">https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+        </license>
+
+        <min-FG-version type="string">2018.3.0</min-FG-version>
+        <max-FG-version type="string">none</max-FG-version>
+
+        <urls>
+            <home-page type="string">http://fguk.me/hangar/download/15-ai-scenarios/540-mach-loop-challenge</home-page>
+            <download type="string"><![CDATA[http://fguk.me/hangar/download/15-ai-scenarios/540-mach-loop-challenge ]]></download>
+            <support type="string"><![CDATA[http://fguk.me/hangar/download/15-ai-scenarios/540-mach-loop-challenge ]]></support>
+            <code-repository type="string">https://github.com/alexeijd/Mach-Loop</code-repository>
+        </urls>
+
+        <tags>
+            <tag type="string">machloop</tag>
+            <tag type="string">circuit</tag>
+            <tag type="string">race</tag>
+        </tags>
+    </addon>
+</PropertyList>
